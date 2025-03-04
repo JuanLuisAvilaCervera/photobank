@@ -24,9 +24,7 @@ export const HomeSlice = createSlice({
             state.error = action.error.message;
         })
     }
-
-
-
+    
 })
 
 export const getImagesData = ( state ) => state.images.data
